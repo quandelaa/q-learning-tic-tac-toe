@@ -1,6 +1,6 @@
 # Q-learning Implementation in Tic-Tac-Toe
 
-Q-learning learns Tic-Tac-Toe
+Q-learning agent learns Tic-Tac-Toe
 
 ## Description
 
