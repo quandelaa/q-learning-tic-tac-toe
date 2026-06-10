@@ -72,7 +72,9 @@ def train(n):
     bot = TTTBot()
 
     for i in range(n):
-        print(f"Training.. {i+1}")
+        if (i+1)%50000 == 0:
+            print(f"Training.. {i+1}")
+
         cur_game = TTTGame([
             ["?", "?", "?"],
             ["?", "?", "?"],
